@@ -115,7 +115,7 @@ function generate_sheet_music_link(id, data) {
     var text = "";
     if (data.pdf === "default") {
         text = id + ".pdf";
-        url = "https://bloak.github.io/arrange/" + text;
+        url = "datas/sheets/" + text;
     }
     else {
         text = "Found Here";

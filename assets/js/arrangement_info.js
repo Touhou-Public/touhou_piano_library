@@ -126,13 +126,12 @@ function generate_sheet_music_link(id, data) {
 
     var a = create_link(url, text, true);
 
+    
+    document.getElementById("iframe-pdf-previews").src = (url);
     var sheet_music_link = document.getElementById("sheet-music-link");
     sheet_music_link.appendChild(a);
 
-    var url = create_link(url, text, true);
-    document.getElementById("pdf-previews").src = url;
-
-   /*
+    /*
     if (data.pdf === "default") {
         generate_sheet_music_preview(route);
     }

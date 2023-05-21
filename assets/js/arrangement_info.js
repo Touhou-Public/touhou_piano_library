@@ -113,9 +113,11 @@ async function fill_theme_links(data) {
 function generate_sheet_music_link(id, data) {
     var url = "";
     var text = "";
+    var view = "pdf/index.html?file=";
     if (data.pdf === "default") {
         text = id + ".pdf";
-        url = "datas/sheets/" + text;
+        route = "/datas/sheets/" + id + ".pdf";
+        url = view + route;
     }
     else {
         text = "Found Here";
@@ -127,17 +129,23 @@ function generate_sheet_music_link(id, data) {
     var sheet_music_link = document.getElementById("sheet-music-link");
     sheet_music_link.appendChild(a);
 
+    var url = create_link(url, text, true);
+    document.getElementById("pdf-previews").src = url;
+
+   /*
     if (data.pdf === "default") {
-        generate_sheet_music_preview(url);
+        generate_sheet_music_preview(route);
     }
+    */
 }
 
+/*
 async function generate_sheet_music_preview(url) {
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
 
     // The workerSrc property shall be specified.
-    pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'assets/js/pdfjs/pdf.worker.js';
 
     // Asynchronous download of PDF
     var loadingTask = pdfjsLib.getDocument(url);
@@ -177,6 +185,7 @@ async function generate_sheet_music_preview(url) {
         console.error(reason);
     });
 }
+*/
 
 async function show_recordings(data) {
     var table = document.getElementById("recordings");

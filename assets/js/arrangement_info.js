@@ -113,9 +113,11 @@ async function fill_theme_links(data) {
 function generate_sheet_music_link(id, data) {
     var url = "";
     var text = "";
+    var view = "pdf/index.html?file=";
     if (data.pdf === "default") {
         text = id + ".pdf";
-        url = "datas/sheets/" + text;
+        route = "https://touhou.pub/touhou_piano_library/datas/sheets/" + id + ".pdf";
+        url = view + route;
     }
     else {
         text = "Found Here";
@@ -124,11 +126,13 @@ function generate_sheet_music_link(id, data) {
 
     var a = create_link(url, text, true);
 
+    
+    // document.getElementById("iframe-pdf-previews").src = (url);
     var sheet_music_link = document.getElementById("sheet-music-link");
     sheet_music_link.appendChild(a);
 
     if (data.pdf === "default") {
-        generate_sheet_music_preview(url);
+        generate_sheet_music_preview(route);
     }
 }
 
@@ -137,7 +141,7 @@ async function generate_sheet_music_preview(url) {
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
 
     // The workerSrc property shall be specified.
-    pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'assets/js/pdfjs/pdf.worker.js';
 
     // Asynchronous download of PDF
     var loadingTask = pdfjsLib.getDocument(url);

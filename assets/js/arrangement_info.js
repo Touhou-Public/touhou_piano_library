@@ -116,8 +116,8 @@ function generate_sheet_music_link(id, data) {
     var view = "pdf/index.html?file=";
     if (data.pdf === "default") {
         text = id + ".pdf";
-        route = "https://touhou.pub/touhou_piano_library/datas/sheets/" + id + ".pdf";
-        url = view + route;
+        route = "datas/sheets/" + id + ".pdf";
+        url = view + "https://touhou.pub/touhou_piano_library/" + route;
     }
     else {
         text = "Found Here";
@@ -127,7 +127,7 @@ function generate_sheet_music_link(id, data) {
     var a = create_link(url, text, true);
 
     
-    document.getElementById("iframe-pdf-previews").src = (url);
+    // document.getElementById("iframe-pdf-previews").src = (url);
     var sheet_music_link = document.getElementById("sheet-music-link");
     sheet_music_link.appendChild(a);
 

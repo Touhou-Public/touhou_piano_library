@@ -131,14 +131,11 @@ function generate_sheet_music_link(id, data) {
     var sheet_music_link = document.getElementById("sheet-music-link");
     sheet_music_link.appendChild(a);
 
-    /*
     if (data.pdf === "default") {
         generate_sheet_music_preview(route);
     }
-    */
 }
 
-/*
 async function generate_sheet_music_preview(url) {
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -184,7 +181,6 @@ async function generate_sheet_music_preview(url) {
         console.error(reason);
     });
 }
-*/
 
 async function show_recordings(data) {
     var table = document.getElementById("recordings");

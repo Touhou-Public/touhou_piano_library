@@ -116,7 +116,7 @@ function generate_sheet_music_link(id, data) {
     var view = "pdf/index.html?file=";
     if (data.pdf === "default") {
         text = id + ".pdf";
-        route = "https://touhou.pub/datas/sheets/" + id + ".pdf";
+        route = "https://touhou.pub/touhou_piano_library/datas/sheets/" + id + ".pdf";
         url = view + route;
     }
     else {

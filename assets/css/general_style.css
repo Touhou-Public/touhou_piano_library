@@ -1,6 +1,21 @@
-a, h1, h2, h3, p, td, th, label, span, div, button {
-    font-family: "Open Sans", sans-serif;
+h1, h2, h3 {
+    font-family: "reimufont", sans-serif;
     line-height: 1.5;
+}
+b, span, div, button {
+    font-family: "yuyukofont", sans-serif; 
+    line-height: 1.5;
+    font-size: x-large;
+}
+a, td, th, label {
+    font-family: "marisafont", sans-serif; 
+    line-height: 1.5;
+    font-size: x-large;
+}
+p {
+    font-family: "Courier New", sans-serif; /* "Courier New" */
+    line-height: 1.5;
+    font-size: x-large;
 }
 
 body {
@@ -14,6 +29,7 @@ nav {
 }
 
 .nav-element {
+    font-family: "yakumofont", sans-serif; 
     font-weight: bold;
     margin-left: 1em;
     margin-right: 1em;

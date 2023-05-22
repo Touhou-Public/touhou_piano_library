@@ -49,8 +49,22 @@
 }
 
 @font-face {
+    font-family: 'yuyukofont-jp';
+    src: url('../fonts/YUYUKOhira-kana-Script.otf'),
+         url('../fonts/YUYUKOhira-kana-Script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'yakumofont';
     src: url('../fonts/yakumo-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+/* 华康金文体 */
+@font-face {
+    font-family: 'DFJinWen';
+    src: url('../fonts/DFJinWenW3-P.ttf') format('truetype');
 }

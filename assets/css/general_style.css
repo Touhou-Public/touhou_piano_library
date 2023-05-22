@@ -8,7 +8,7 @@ b, span, div, button {
     font-size: x-large;
 }
 a, td, th, label {
-    font-family: "marisafont", sans-serif; 
+    font-family: "marisafont", "yuyukofont-jp", sans-serif; 
     line-height: 1.5;
     font-size: x-large;
 }

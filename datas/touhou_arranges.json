@@ -3707,7 +3707,8 @@
         "transcriber": "苍火568",
 		"pdf": "default",
 		"performance": [
-			{"performer": null, "link": "https://www.youtube.com/watch?v=hYxwsD7XUD4"}
+			{"performer": null, "link": "https://www.youtube.com/watch?v=hYxwsD7XUD4"},
+            {"performer": "Pachirisue", "link": "https://www.bilibili.com/video/BV11A411o7xa"}
 		],
 		"type": "arrange",
 		"difficulty": "5",
@@ -4296,7 +4297,8 @@
 			{"performer": null, "link": "https://www.youtube.com/watch?v=IXlFbUOBK2c"},
 			{"performer": "Svcu", "link": "https://www.bilibili.com/video/BV15s411U7nb"},
             {"performer": "Midori Yakumo", "link": "https://www.youtube.com/watch?v=CYfmppYlRUs"},
-            {"performer": "李四橙", "link": "https://www.bilibili.com/video/BV1i5411p7uA"}
+            {"performer": "李四橙", "link": "https://www.bilibili.com/video/BV1i5411p7uA"},
+            {"performer": "Pachirisue", "link": "https://www.bilibili.com/video/BV1LW4y137Fh"}
 		],
 		"type": "arrange",
 		"difficulty": "3",
@@ -4553,6 +4555,18 @@
 		"type": "transcription",
 		"difficulty": "?",
         "date": "2023/05/13"
+	},
+    "TFM-009b_14_2":{
+		"title": null,
+		"original": "TFM-009b_14",
+		"arranger": "羽落わ",
+		"pdf": "default",
+		"performance": [
+			{"performer": null, "link": "https://www.bilibili.com/video/BV11c411c7yq"}
+		],
+		"type": "transcription",
+		"difficulty": "5",
+        "date": "2023/10/07"
 	},
     "TFM-010b_08":{
 		"title": null,

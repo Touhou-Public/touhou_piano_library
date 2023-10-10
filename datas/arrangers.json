@@ -955,6 +955,11 @@
         "website": [
             {"title": "bilibili", "url": "https://space.bilibili.com/1629092792"}
         ]
+    },
+    "Messier":{
+        "website": [
+            {"title": "niconico", "url": "https://www.nicovideo.jp/user/18711328"}
+        ]
     }
 }
 

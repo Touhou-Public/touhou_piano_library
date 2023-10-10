@@ -1006,6 +1006,21 @@
 		"difficulty": "3",
         "date": "2023/10/05"
 	},
+    "th06_15_8":{
+		"title": "If it was the last Clavier",
+		"original": "th06_15",
+        "circle": "Assaultdoor",
+        "album": "Daydream Tunes",
+		"arranger": "Messier",
+		"transcriber": "GNaugEH",
+		"pdf": "default",
+		"performance": [
+			{"performer": null, "link": "https://www.bilibili.com/video/BV1Z7411a7Lp"}
+		],
+		"type": "arrange",
+		"difficulty": "5",
+        "date": "2023/10/10"
+	},
     "th06_17":{
 		"title": null,
 		"original": "th06_17",
@@ -3037,6 +3052,20 @@
 		"difficulty": "?",
         "comment": "Based on Beethoven's Sonata Pathetique.",
         "date": "2023/05/03"
+	},
+    "th11_09_6":{
+		"title": "La cafe de Satori",
+		"original": "th11_09",
+        "circle": "幻想Bakery",
+        "album": "Innocent Story",
+		"arranger": "Messier",
+		"pdf": "https://www.nicovideo.jp/watch/sm23322204",
+		"performance": [
+			{"performer": null, "link": "https://www.nicovideo.jp/watch/sm23322204"}
+		],
+		"type": "arrange",
+		"difficulty": "?",
+        "date": "2023/10/10"
 	},
 	"th11_10_3":{
 		"title": "One Night Hell Screen",

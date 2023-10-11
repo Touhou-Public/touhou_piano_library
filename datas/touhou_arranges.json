@@ -770,7 +770,8 @@
         "transcriber": "Quellatalo",
 		"pdf": "default",
 		"performance": [
-			{"performer": null, "link": "https://www.youtube.com/watch?v=DpmuB05uQo4"}
+			{"performer": null, "link": "https://www.youtube.com/watch?v=DpmuB05uQo4"},
+            {"performer": "Bloak", "link": "https://www.youtube.com/watch?v=iJBMEM3CTaE"}
 		],
 		"type": "arrange",
 		"difficulty": "2",
